@@ -4,7 +4,7 @@ import TheHeader from './components/TheHeader'
 
 export default function Home() {
   return (
-    <main>
+    <main className='container mx-auto'>
       <TheHeader />
       <p>hello world</p>
     </main>

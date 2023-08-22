@@ -1,3 +1,9 @@
 export default function TheHeader() {
-    return <h1>The Header</h1>
+  return (
+    <div className="flex justify-between">
+      <div>Pine Cabin Estate</div>
+      <div>Navigation</div>
+      <div>Something Else</div>
+    </div>
+  );
 }

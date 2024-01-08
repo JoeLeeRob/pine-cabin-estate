@@ -1,14 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // async redirects() {
-    //     return [
-    //       {
-    //         source: '/dashboard',
-    //         destination: '/login',
-    //         permanent: true,
-    //       },
-    //     ]
-    //   },
+    images: {
+        domains: ['source.unsplash.com'],
+    },
 }
 
 module.exports = nextConfig
